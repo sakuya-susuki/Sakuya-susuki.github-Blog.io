@@ -8,7 +8,7 @@
 
 # hexo-theme-butterfly
 
-一個適用於 Hexo 的現代化、美觀且功能豐富的主題
+一個適用於 Hexo 的現代化且美觀且功能豐富的主題
 
 ![master version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/master?color=%231ab1ad&label=master)
 ![dev version](https://img.shields.io/github/package-json/v/jerryc127/hexo-theme-butterfly/dev?label=dev)
