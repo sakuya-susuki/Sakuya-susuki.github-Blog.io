@@ -180,19 +180,20 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "bases:创建新数据库": false,
+      "flowershow:Publish with Flowershow": false
     }
   },
   "active": "1f0a986e11952262",
   "lastOpenFiles": [
+    "未命名",
+    "未命名.base",
+    "未命名 1.base",
     "index.md",
     "demo.md",
     "x.md",
-    "未命名 1.base",
-    "未命名.base",
     "hello-world.md",
     "2025-10-26-chuangzuo-ceshi.md",
-    "1.md",
-    "未命名"
+    "1.md"
   ]
 }
