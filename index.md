@@ -1,13 +1,14 @@
+---
+title: 功能测试
 
-Good night everyone This is Anemone.
+date: 2025-10-25
 
-  I try use  'Obsidian'  of  ‘Flower-show’  push my notebooks of computer. If you see it ，that means i succeed.
+tags:
+  - 技术
+  - 生活
 
-  So i need write down ‘Hello World’
-
-  
-
-If i succeed ，i can write  a blog  get you study.
-
-                                                                                                                                your,
-                                                        Anemone
+categories:
+ - 测试
+ - 记得删除
+---
+Asahi
