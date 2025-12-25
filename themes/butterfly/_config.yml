@@ -1091,17 +1091,10 @@ inject:
           font-weight: 500;
       }
       </style>
-
-
-
-
-
-          
-
-
-    # 保持或移除之前用于 Pace.js 的配置
-    # ...
   bottom:
+
+
+
 
 #预加载脚本
     # 1. 加载 Pace.js 脚本
