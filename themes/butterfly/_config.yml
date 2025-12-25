@@ -22,6 +22,7 @@ nav:
 # 必须是 /xxx/，后面||分开，然后写图标名，如果不想显示图标，图标名可不写
 menu:
   首页: / || fas fa-home
+  关于我: /about/ || fas fa-user-astronaut
 
   文章||fa fa-file-alt: 
 
@@ -312,10 +313,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/sakuya-susuki
   card_announcement:
     enable: true
-    content: "I don't know what to write here, so I just put some random words."
+    content: "At Charing Cross, we were like two lines detoured by time, finally converging at the same point."
   card_recent_post:
     enable: true
     # If set 0 will show all

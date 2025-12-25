@@ -29,7 +29,7 @@
               "state": {
                 "file": "Merry Christmas 2025! 🎅❄️🎄.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Merry Christmas 2025! 🎅❄️🎄"
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:技术",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -201,17 +201,17 @@
   "active": "7f9c2913b01796a0",
   "lastOpenFiles": [
     "pandas.md",
+    "race.md",
     "Merry Christmas 2025! 🎅❄️🎄.md",
+    "冬庆.md",
+    "20251025.md",
+    "demo1.md",
+    "demo2.md",
     "first.md",
     "教学/未命名.md",
     "教学",
-    "demo1.md",
-    "race.md",
-    "20251025.md",
-    "demo2.md",
     "未命名 1.base",
     "未命名.base",
-    "冬庆.md",
     "studio.txt",
     "studio.md",
     "2025-11-26.md",

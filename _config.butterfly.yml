@@ -36,7 +36,7 @@ menu:
     
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
-    电影: /movies/ || fas fa-video
+    # 电影: /movies/ || fas fa-video
     友链: /link/ || fas fa-link
 
 # --------------------------------------
@@ -312,10 +312,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/sakuya-susuki
   card_announcement:
     enable: true
-    content: "I don't know what to write here, so I just put some random words."
+    content: "At Charing Cross, we were like two lines detoured by time, finally converging at the same point."
   card_recent_post:
     enable: true
     # If set 0 will show all
