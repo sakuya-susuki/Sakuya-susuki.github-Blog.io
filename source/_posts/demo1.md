@@ -38,3 +38,7 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
+<button onclick="likePost()" style="padding: 10px 20px; background: #ff4757; color: white; border: none; border-radius: 5px; cursor: pointer;">
+  ❤️ 给这篇文章点赞
+</button>

@@ -1075,7 +1075,10 @@ inject:
 #预加载样式
     # 样式放在头部
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/themes/pace-theme-flash.min.css">
-
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/themes/pace-theme-flash.min.css">
+    # 新增：Supabase 核心库 (放在 head 确保在后续脚本运行前加载好)
+    - <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    - <script src="https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js"></script>
 #日夜间模式字体
     - |
       <style>
@@ -1092,19 +1095,16 @@ inject:
       }
       </style>
 
-
-
-
-
-
-
-          
-
-
     # 保持或移除之前用于 Pace.js 的配置
     # ...
   bottom:
     - <script src="/js/christmas.js" defer></script>
+    # 新增：你的 Supabase 连接逻辑
+    - <script src="/js/supabase-db.js"></script>
+
+
+
+
     
 # CDN Settings
 # Don't modify the following settings unless you know how they work

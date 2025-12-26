@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Merry Christmas 2025! 🎅❄️🎄.md",
+                "file": "demo1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Merry Christmas 2025! 🎅❄️🎄"
+              "title": "demo1"
             }
           }
         ],
@@ -200,9 +200,9 @@
   },
   "active": "7f9c2913b01796a0",
   "lastOpenFiles": [
+    "Merry Christmas 2025! 🎅❄️🎄.md",
     "pandas.md",
     "race.md",
-    "Merry Christmas 2025! 🎅❄️🎄.md",
     "冬庆.md",
     "20251025.md",
     "demo1.md",
