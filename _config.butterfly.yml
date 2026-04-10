@@ -22,22 +22,25 @@ nav:
 # 必须是 /xxx/，后面||分开，然后写图标名，如果不想显示图标，图标名可不写
 menu:
   首页: / || fas fa-home
+  关于我: /about/ || fas fa-user
 
-  文章||fa fa-file-alt: 
-
+  文章:
     所有文章: /archives/ || fas fa-newspaper
     精选文章: /star/ || fas fa-star
     时间轴: /archives/ || fas fa-archive
 
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
-
-  清单||fa fa-heartbeat:
-    
-    音乐: /music/ || fas fa-music
-    照片: /Gallery/ || fas fa-images
-    # 电影: /movies/ || fas fa-video
+  快捷寻找:   
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
     友链: /link/ || fas fa-link
+
+
+  # 清单||fa fa-heartbeat:
+    
+  #   音乐: /music/ || fas fa-music
+  #   # 照片: /Gallery/ || fas fa-images
+  #   # 电影: /movies/ || fas fa-video
+  #   友链: /link/ || fas fa-link
 
 # --------------------------------------
 # Code Blocks Settings
@@ -112,7 +115,7 @@ footer_img: transparent
 background: https://free.picui.cn/free/2025/10/25/68fba66697468.jpg
 
 # Footer Background
-footer_bg: transparent
+footer_bg: transparent 
 
 cover:
   # Disable the cover or not
@@ -1072,35 +1075,30 @@ css_prefix: true
 
 inject:
   head:
-#预加载样式
-    # 样式放在头部
+    # pace 样式
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/themes/pace-theme-flash.min.css">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/themes/pace-theme-flash.min.css">
-    # 新增：Supabase 核心库 (放在 head 确保在后续脚本运行前加载好)
-    - <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    - <script src="https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js"></script>
-#日夜间模式字体
-    - |
-      <style>
-      /* 日间模式颜色 (默认) */
-      body {
-          color: 	#4F4F4F;
-      }
-      
-      /* 夜间模式颜色和字体设置 (合并为一段) */
-      html[data-theme="dark"] body {
-          color: #CCCCCC;
-          font-family: "Noto Sans SC", sans-serif;
-          font-weight: 500;
-      }
-      </style>
 
-    # 保持或移除之前用于 Pace.js 的配置
-    # ...
+    # 字体（外链导入）
+    - <link rel="preconnect" href="https://fonts.googleapis.com">
+    - <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap">
+
+    # 你的字体 / 日夜模式样式（就在 js 目录里）
+    - <link rel="stylesheet" href="/js/theme-font.css">
+
+    # # 依赖库
+    
+    # - <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
+    # - <script src="https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs@3/dist/fp.min.js" defer></script>
+
   bottom:
-    - <script src="/js/christmas.js" defer></script>
-    # 新增：你的 Supabase 连接逻辑
-    - <script src="/js/supabase-db.js"></script>
+    # 先加载 supabase 逻辑
+    # - <script src="/js/supabase-db.js" defer></script>
+# 节日脚本
+    # 生日脚本
+    - <script src="/js/Birthday.js" defer></script>
+    #圣诞脚本
+    # - <script src="/js/Christmas.js" defer></script>
+
 
 
 

@@ -22,23 +22,24 @@ nav:
 # 必须是 /xxx/，后面||分开，然后写图标名，如果不想显示图标，图标名可不写
 menu:
   首页: / || fas fa-home
-  关于我: /about/ || fas fa-user-astronaut
+  关于我: /about/ || fas fa-user
 
-  文章||fa fa-file-alt: 
-
+  文章:
     所有文章: /archives/ || fas fa-newspaper
     精选文章: /star/ || fas fa-star
     时间轴: /archives/ || fas fa-archive
 
-  标签: /tags/ || fas fa-tags
-  分类: /categories/ || fas fa-folder-open
+  快捷寻找:   
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
 
-  清单||fa fa-heartbeat:
+
+  # 清单||fa fa-heartbeat:
     
-    音乐: /music/ || fas fa-music
-    照片: /Gallery/ || fas fa-images
-    电影: /movies/ || fas fa-video
-    友链: /link/ || fas fa-link
+  #   音乐: /music/ || fas fa-music
+  #   照片: /Gallery/ || fas fa-images
+  #   电影: /movies/ || fas fa-video
+  #   友链: /link/ || fas fa-link
 
 # --------------------------------------
 # Code Blocks Settings

@@ -7,7 +7,7 @@
   // 0) 配置区
   // =========================
   const SUBTITLE_TEXT = '今晚，整个夜空将为你闪耀';
-  const BG_IMAGE = '/img/christmas-bg.webp';
+  const BG_IMAGE = '/img/appplo.img';
   const AUDIO_SRC = '/js/christmas-song.mp3';
 
   // =========================

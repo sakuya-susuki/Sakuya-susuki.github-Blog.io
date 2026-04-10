@@ -1,0 +1,13 @@
+/* /js/theme-font.css */
+
+/* 日间模式颜色 (默认) */
+body {
+  color: #4F4F4F;
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+/* 夜间模式颜色 + 字体 */
+html[data-theme="dark"] body {
+  color: #CCCCCC;
+  font-weight: 500;
+}

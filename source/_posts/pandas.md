@@ -2,7 +2,6 @@
 title: Pandas 学习 （How use Pandas）【未完成，需修正】
 tags:
   - 教学
-  - 技术
 ---
 # English
 Hello everyone. This is  Blog  of Anemone. There day we try study liter knowledge of Pandas.

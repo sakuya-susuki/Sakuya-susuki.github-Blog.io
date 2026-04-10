@@ -3,8 +3,6 @@ title: "Merry Christmas 2025: 碎星与暖光"
 date: 2025-12-25 12:00:00
 tags:
   - 生活
-  - 絮叨
-  - 圣诞
 categories:
   - 日常
 ---
